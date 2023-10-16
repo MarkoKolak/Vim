@@ -65,3 +65,12 @@ set noerrorbells
 set guifont=h15
 
 set backspace=2
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
+set guifont=Fixedsys:h10
