@@ -1,0 +1,2 @@
+# Vim
+moj vim rc
